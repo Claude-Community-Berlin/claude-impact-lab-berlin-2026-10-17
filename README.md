@@ -58,22 +58,13 @@ A full-day build sprint in Berlin. ~100 curated people, mixed teams, Claude API 
 
 ## 📤 How to submit (before 16:00)
 
-### Option A: Issue form (easiest, no git needed)
+One person per team opens **one issue** in this repo. No git needed.
 
-1. Go to **Issues → New issue → 🚀 Team submission**
-2. Fill in the form and click *Submit new issue*
-3. A bot creates `submissions/<your-team-name>.md` and opens a Pull Request linked to your issue ✅
+1. Go to **[Issues → New issue → 🚀 Team submission](https://github.com/Claude-Community-Berlin/claude-impact-lab-berlin-2026-10-17/issues/new?template=submission.yml)**
+2. Fill in the form: repo link, one-line pitch, team, optional 2-minute demo video
+3. Click *Submit new issue*. Done ✅
 
-Need to change something? Edit your issue and the PR updates automatically.
-
-### Option B: Pull Request by hand
-
-Open a Pull Request **to this repo** that adds one file: `submissions/<your-team-name>.md`
-
-1. Copy [`submissions/_TEMPLATE.md`](submissions/_TEMPLATE.md)
-2. Rename it to your team name, e.g. `submissions/team-kiez-builders.md`
-3. Fill it in: repo link, one-line pitch, team, optional 2-minute demo video
-4. Open the PR. Done ✅
+Need to fix something before 16:00? Just edit your issue. Want to see the questions in advance? Look at [`submissions/_TEMPLATE.md`](submissions/_TEMPLATE.md).
 
 **Tip:** Record the 2-minute demo at 15:00, not 15:55. Loom, a phone, or a screen recording all work.
 

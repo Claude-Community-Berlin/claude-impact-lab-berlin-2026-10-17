@@ -1,14 +1,13 @@
 name: 🚀 Team submission
-description: Submit your team's build. A Pull Request is created for you automatically.
+description: Submit your team's build (one issue per team).
 title: "Submission: <your team name>"
 labels: ["submission"]
 body:
   - type: markdown
     attributes:
       value: |
-        Fill this in **before 16:00**. When you click *Submit new issue*, a bot creates
-        `submissions/<team-name>.md` and opens a Pull Request linked to this issue.
-        Need to fix something? Just edit this issue and the PR updates itself.
+        Fill this in **before 16:00**. One issue per team.
+        Need to fix something? Just edit this issue before the deadline.
   - type: input
     id: team
     attributes:

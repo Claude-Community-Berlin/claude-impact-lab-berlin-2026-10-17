@@ -1,6 +1,8 @@
-## Submission checklist
-- [ ] Added one file: `submissions/<team-name>.md`
-- [ ] Repo link is public and opens
-- [ ] README explains what it does and how to run it
+## What changed
+<!-- 1–2 sentences -->
+
+## Checklist
 - [ ] No API keys or secrets in the repo
-- [ ] Submitted before 16:00
+- [ ] README updated if needed
+
+> Submitting your team's build? Don't open a PR. Use **Issues → New issue → 🚀 Team submission** instead.
