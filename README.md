@@ -37,7 +37,7 @@ A full-day build sprint in Berlin. ~100 curated people, mixed teams, Claude API 
    cp .env.example .env    # then paste your key into .env
    ```
 4. Open the repo in Claude Code (`claude`) or Claude.ai. Claude reads `CLAUDE.md` automatically and follows the rules.
-5. Build. 🛠️
+5. Build. 🛠️ Then replace this README with your own project's README: what it does, who it's for, how to run it.
 
 **No terminal?** Build in [Claude.ai](https://claude.ai) with artifacts, then paste your link and screenshots into your submission. That counts.
 
