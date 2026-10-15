@@ -30,14 +30,14 @@ A full-day build sprint in Berlin. ~100 curated people, mixed teams, Claude API 
 
 ## 🚀 Get started (5 minutes)
 
-1. **One person per team** clicks **Use this template** → *Create a new repository* (public).
+1. **One person per team** opens the **[starter repo](https://github.com/Claude-Community-Berlin/claude-impact-lab-starter)** and clicks **Use this template** → *Create a new repository* (public).
 2. Add your teammates as collaborators.
 3. Set your API key (from your credits) locally. Never commit it:
    ```bash
    cp .env.example .env    # then paste your key into .env
    ```
 4. Open the repo in Claude Code (`claude`) or Claude.ai. Claude reads `CLAUDE.md` automatically and follows the rules.
-5. Build. 🛠️
+5. Build. 🛠️ Fill in the starter's README as you go: what it does, who it's for, how to run it.
 
 **No terminal?** Build in [Claude.ai](https://claude.ai) with artifacts, then paste your link and screenshots into your submission. That counts.
 
