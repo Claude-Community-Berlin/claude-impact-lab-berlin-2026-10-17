@@ -1,0 +1,80 @@
+name: 🚀 Team submission
+description: Submit your team's build (one issue per team).
+title: "Submission: <your team name>"
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Fill this in **before 16:00**. One issue per team.
+        Need to fix something? Just edit this issue before the deadline.
+  - type: input
+    id: team
+    attributes:
+      label: Team name
+      placeholder: Kiez Builders
+    validations:
+      required: true
+  - type: input
+    id: pitch
+    attributes:
+      label: One-line pitch
+      description: What you built, for whom, in one sentence.
+    validations:
+      required: true
+  - type: input
+    id: theme
+    attributes:
+      label: Theme / problem
+      description: Which problem from the Claude Conversation themes you tackled.
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Repo
+      placeholder: https://github.com/your-team/your-repo
+    validations:
+      required: true
+  - type: input
+    id: video
+    attributes:
+      label: Demo video (optional, max 2 min)
+  - type: input
+    id: live
+    attributes:
+      label: Live link / screenshots (optional)
+  - type: textarea
+    id: members
+    attributes:
+      label: Team
+      description: One person per line, as `Name - Role / background`
+      placeholder: |
+        Alex - Designer
+        Sam - Backend engineer
+        Jo - Social worker
+    validations:
+      required: true
+  - type: textarea
+    id: claude
+    attributes:
+      label: How Claude is used
+      description: 2–4 sentences on what Claude does inside your product.
+    validations:
+      required: true
+  - type: textarea
+    id: next
+    attributes:
+      label: What's next
+      description: 1–2 sentences on what you'd build with another week.
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Repo link is public and opens
+          required: true
+        - label: README explains what it does and how to run it
+          required: true
+        - label: No API keys or secrets in the repo
+          required: true
