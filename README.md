@@ -58,6 +58,16 @@ A full-day build sprint in Berlin. ~100 curated people, mixed teams, Claude API 
 
 ## 📤 How to submit (before 16:00)
 
+### Option A: Issue form (easiest, no git needed)
+
+1. Go to **Issues → New issue → 🚀 Team submission**
+2. Fill in the form and click *Submit new issue*
+3. A bot creates `submissions/<your-team-name>.md` and opens a Pull Request linked to your issue ✅
+
+Need to change something? Edit your issue and the PR updates automatically.
+
+### Option B: Pull Request by hand
+
 Open a Pull Request **to this repo** that adds one file: `submissions/<your-team-name>.md`
 
 1. Copy [`submissions/_TEMPLATE.md`](submissions/_TEMPLATE.md)
@@ -85,7 +95,7 @@ Finalists: 5 teams · 6 min demo + 4 min Q&A.
 
 ## 🆘 Help
 
-Stuck? Find an organizer or mentor in the room. Hosts: **Mehul** & team.
+Stuck? Find an Claude ambassadors or mentor in the room. 
 
 Useful links:
 - Claude docs: https://docs.claude.com
