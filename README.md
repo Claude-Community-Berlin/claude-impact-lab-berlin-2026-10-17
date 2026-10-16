@@ -47,12 +47,13 @@ Teams of up to 5. Mix the roles: **technical**, **product or design**, **domain 
 
 1. **One person per team** opens the **[starter repo](https://github.com/Claude-Community-Berlin/claude-impact-lab-starter)** and clicks **Use this template** → *Create a new repository* (public).
 2. Add your teammates as collaborators.
-3. Set your API key (from your credits) locally. Never commit it:
+3. **Claim your $100 API credits** with the QR code in the room: sign in to the Claude Console and submit the **Organization ID from the Console** (not your Claude.ai ID), once. Then create an API key in the Console.
+4. Set your API key locally. Never commit it:
    ```bash
    cp .env.example .env    # then paste your key into .env
    ```
-4. Open your new repo in Claude Code (`claude`) or Claude.ai. Claude reads `CLAUDE.md` automatically and follows the rules.
-5. Build. 🛠️ Fill in the starter's README as you go: what it does, who it's for, how to run it.
+5. Open your new repo in Claude Code (`claude`) or Claude.ai. Claude reads `CLAUDE.md` automatically: it knows the rules, judging, timeline and how your team should collaborate.
+6. Build. 🛠️ Fill in the starter's README as you go: what it does, who it's for, how to run it.
 
 **No terminal?** Build in [Claude.ai](https://claude.ai) with artifacts, then paste your link and screenshots into your submission. That counts.
 
