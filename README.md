@@ -47,7 +47,7 @@ Every team has **5 people**. There are four roles: **builder**, **product or des
 
 1. **One person per team** opens the **[starter repo](https://github.com/Claude-Community-Berlin/claude-impact-lab-starter)** and clicks **Use this template** → *Create a new repository* (public).
 2. Add your teammates as collaborators.
-3. **Claim your $100 API credits** with the QR code in the room: sign in to the Claude Console and submit the **Organization ID from the Console** (not your Claude.ai ID), once. Then create an API key in the Console.
+3. **Claim your $100 API credits** with the QR code in the room: sign in with the Claude Console account you will use today. Your organization is filled in for you; add your name and submit once. Then create an API key in the Console. Credits can take a while to arrive, so if yours are not there yet, build with a teammate's key in the meantime.
 4. Set your API key locally. Never commit it:
    ```bash
    cp .env.example .env    # then paste your key into .env
