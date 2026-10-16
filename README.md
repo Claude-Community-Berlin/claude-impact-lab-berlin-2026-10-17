@@ -52,7 +52,7 @@ Teams of up to 5. Mix the roles: **technical**, **product or design**, **domain 
    ```bash
    cp .env.example .env    # then paste your key into .env
    ```
-5. Open your new repo in Claude Code (`claude`) or Claude.ai. Claude reads `CLAUDE.md` automatically: it knows the rules, judging, timeline and how your team should collaborate.
+5. Open your new repo in Claude Code (`claude`) or Claude.ai. Claude Code reads `CLAUDE.md` automatically: it knows the rules, judging, timeline and how your team should collaborate. In Claude.ai, paste `CLAUDE.md` into your first message.
 6. Build. 🛠️ Fill in the starter's README as you go: what it does, who it's for, how to run it.
 
 **No terminal?** Build in [Claude.ai](https://claude.ai) with artifacts, then paste your link and screenshots into your submission. That counts.
