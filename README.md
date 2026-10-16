@@ -17,7 +17,7 @@ A full-day build sprint in Berlin. ~100 curated people, mixed teams, Claude API 
 | 09:30 | Check-in |
 | 10:00 | Welcome: the challenge, rules and judging |
 | 10:30 | Bingo icebreaker |
-| 10:45 | Team forming (teams of up to 5) |
+| 10:45 | Team forming (teams of 5) |
 | 11:00 | **Build starts** |
 | 13:00 | Lunch until 13:45, then back to building |
 | 15:00 | Submission reminder. Record your demo now! |
@@ -39,7 +39,7 @@ Pick one real audience, for example: older adults, small business owners, job se
 
 ## 👥 Teams
 
-Teams of up to 5. Mix the roles: **technical**, **product or design**, **domain expert** and **founder**, plus one flex seat. Your name tag colour shows your role. Pick a team name and tell it to us at the desk.
+Every team has **5 people**. There are four roles: **builder**, **product or design**, **domain expert** and **founder**. Each team must include at least 1 builder, 1 product or design person and 1 domain expert; the other 2 seats can be a founder or anyone. Your role is on your name tag. Pick a team name and tell it to us at the desk.
 
 ---
 
@@ -63,7 +63,7 @@ Teams of up to 5. Mix the roles: **technical**, **product or design**, **domain 
 
 1. **Build today.** Ideas and research can come from before; the build happens on the day.
 2. **Use Claude.** Claude must be part of the solution, not just the tool that wrote it.
-3. **Teams of up to 5**, mixed roles.
+3. **Teams of 5**, with at least 1 builder, 1 product or design and 1 domain expert.
 4. **Public repo** with a README anyone can follow.
 5. **No secrets in Git.** API keys go in `.env`, which is git-ignored.
 6. **Open-source libraries, APIs and assets are fine.** Credit them in your README.
