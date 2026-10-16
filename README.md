@@ -14,17 +14,32 @@ A full-day build sprint in Berlin. ~100 curated people, mixed teams, Claude API 
 
 | Time | What |
 |---|---|
-| 09:30 | Check-in + icebreaker |
-| 10:00 | Opening: partner, problem, repo, rules, judging |
-| 10:30 | Teams form, **build starts** |
-| 13:00 | Lunch |
-| 15:00 | Reminder: submission format. Record your demo now! |
-| **16:00** | **⛔ Hard submission deadline** |
-| 16:05 | Judges review and pick finalists |
-| 16:40 | Final presentations (5 teams · 6 min + 4 min Q&A) |
-| 17:30 | Judges grade |
+| 09:30 | Check-in |
+| 10:00 | Welcome: the challenge, rules and judging |
+| 10:30 | Bingo icebreaker |
+| 10:45 | Team forming (teams of up to 5) |
+| 11:00 | **Build starts** |
+| 13:00 | Lunch until 13:45, then back to building |
+| 15:00 | Submission reminder. Record your demo now! |
+| 15:45 | 15 minute warning |
+| **16:00** | **⛔ Hard deadline: repo, README and 2 minute demo video** |
+| 16:05 | First round judging, two groups of three judges |
+| 16:38 | Six finalists announced (top 3 of each group) |
+| 16:40 | Finals: six teams pitch live (6 min + 4 min Q&A) |
 | 17:45 | Winners announced + closing |
 | 18:00 | End |
+
+---
+
+## 🎯 The challenge: AI education for everyone
+
+Build a working prototype that helps real people learn or use AI. One day. Claude Code.
+
+Pick one real audience, for example: older adults, small business owners, job seekers, parents, newcomers, people with disabilities, or workers in non-tech jobs. Another group is fine, as long as it is a real one.
+
+## 👥 Teams
+
+Teams of up to 5. Mix the roles: **technical**, **product or design**, **domain expert** and **founder**, plus one flex seat. Your name tag colour shows your role. Pick a team name and tell it to us at the desk.
 
 ---
 
@@ -32,12 +47,13 @@ A full-day build sprint in Berlin. ~100 curated people, mixed teams, Claude API 
 
 1. **One person per team** opens the **[starter repo](https://github.com/Claude-Community-Berlin/claude-impact-lab-starter)** and clicks **Use this template** → *Create a new repository* (public).
 2. Add your teammates as collaborators.
-3. Set your API key (from your credits) locally. Never commit it:
+3. **Claim your $100 API credits** with the QR code in the room: sign in to the Claude Console and submit the **Organization ID from the Console** (not your Claude.ai ID), once. Then create an API key in the Console.
+4. Set your API key locally. Never commit it:
    ```bash
    cp .env.example .env    # then paste your key into .env
    ```
-4. Open your new repo in Claude Code (`claude`) or Claude.ai. Claude reads `CLAUDE.md` automatically and follows the rules.
-5. Build. 🛠️ Fill in the starter's README as you go: what it does, who it's for, how to run it.
+5. Open your new repo in Claude Code (`claude`) or Claude.ai. Claude Code reads `CLAUDE.md` automatically: it knows the rules, judging, timeline and how your team should collaborate. In Claude.ai, paste `CLAUDE.md` into your first message.
+6. Build. 🛠️ Fill in the starter's README as you go: what it does, who it's for, how to run it.
 
 **No terminal?** Build in [Claude.ai](https://claude.ai) with artifacts, then paste your link and screenshots into your submission. That counts.
 
@@ -47,7 +63,7 @@ A full-day build sprint in Berlin. ~100 curated people, mixed teams, Claude API 
 
 1. **Build today.** Ideas and research can come from before; the build happens on the day.
 2. **Use Claude.** Claude must be part of the solution, not just the tool that wrote it.
-3. **Teams of 3–5**, mixed backgrounds.
+3. **Teams of up to 5**, mixed roles.
 4. **Public repo** with a README anyone can follow.
 5. **No secrets in Git.** API keys go in `.env`, which is git-ignored.
 6. **Open-source libraries, APIs and assets are fine.** Credit them in your README.
@@ -58,13 +74,15 @@ A full-day build sprint in Berlin. ~100 curated people, mixed teams, Claude API 
 
 ## 📤 How to submit (before 16:00)
 
-One person per team opens **one issue** in this repo. No git needed.
+You need three things by 16:00:
 
-1. Go to **[Issues → New issue → 🚀 Team submission](https://github.com/Claude-Community-Berlin/claude-impact-lab-berlin-2026-10-17/issues/new?template=submission.yml)**
-2. Fill in the form: repo link, one-line pitch, team, optional 2-minute demo video
-3. Click *Submit new issue*. Done ✅
+1. **Repo:** your public repo, named with your team name
+2. **README:** who it is for, what problem it solves, how to run it
+3. **Demo video:** a 2 minute screen recording of it working (required)
 
-Need to fix something before 16:00? Just edit your issue. Want to see the questions in advance? Look at [`submissions/_TEMPLATE.md`](submissions/_TEMPLATE.md).
+Then **one person per team** fills in the **[submission form](https://tally.so/r/1WPr9Q)** (also on the QR code in the room): team name, team members, repo link, demo video link, and who it is for. Done ✅
+
+Judges watch your demo first, then read your README.
 
 **Tip:** Record the 2-minute demo at 15:00, not 15:55. Loom, a phone, or a screen recording all work.
 
@@ -72,21 +90,25 @@ Need to fix something before 16:00? Just edit your issue. Want to see the questi
 
 ## 🏆 Judging
 
-| Criteria | Question the judges ask |
-|---|---|
-| **Impact** | Does it solve a real problem from the themes? Who benefits? |
-| **Use of Claude** | Is Claude used in a smart, meaningful way? |
-| **Execution** | Does it work? Can we see it working? |
-| **Creativity** | Is the idea or approach fresh? |
-| **Presentation** | Is it clear in 6 minutes? |
+100 points, four criteria:
 
-Finalists: 5 teams · 6 min demo + 4 min Q&A.
+| Criteria | Points | Question the judges ask |
+|---|---|---|
+| **Impact** | 40 | Does it help a real audience learn or use AI? Would they actually use it? |
+| **Working demo** | 20 | Does it really run? |
+| **Technical quality** | 20 | Is it well built? |
+| **Creativity** | 20 | Is the idea fresh? |
+
+Ties are broken by the higher Impact score.
+
+**Round one (16:05):** two groups of three judges each score their half of the teams. The top 3 of each group go to the finals.
+**Finals (16:40):** six teams · 6 min demo + 4 min Q&A, scored by all six judges.
 
 ---
 
 ## 🆘 Help
 
-Stuck? Find an Claude ambassadors or mentor in the room. 
+Stuck? Find a Claude ambassador or mentor in the room.
 
 Useful links:
 - Claude docs: https://docs.claude.com
