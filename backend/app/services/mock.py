@@ -23,15 +23,17 @@ def ask(question: str) -> AskAI:
     )
 
 
-def draft(text: str) -> DraftAI:
+def draft(text: str, child_name: str | None = None, parent_name: str | None = None) -> DraftAI:
+    child = (child_name or "").strip() or "Yusuf"
+    parent = (parent_name or "").strip() or "Amira"
     return DraftAI(
         german_message=(
-            "Guten Morgen Frau Becker,\n\nYusuf kommt morgen etwas später, "
-            "weil er einen Arzttermin hat. Wir sind gegen 10 Uhr da.\n\nViele Grüße\nAmira"
+            f"Guten Morgen Frau Becker,\n\n{child} kommt morgen etwas später, "
+            f"weil er einen Arzttermin hat. Wir sind gegen 10 Uhr da.\n\nViele Grüße\n{parent}"
         ),
         back_translation=(
-            "Good morning Ms Becker, Yusuf will come a bit later tomorrow because he has "
-            "a doctor's appointment. We will be there around 10. Best regards, Amira"
+            f"Good morning Ms Becker, {child} will come a bit later tomorrow because he has "
+            f"a doctor's appointment. We will be there around 10. Best regards, {parent}"
         ),
     )
 

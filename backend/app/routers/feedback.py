@@ -2,17 +2,16 @@
 
 from fastapi import APIRouter
 
-from app.errors import NotImplementedYet
+from app.errors import NotFound
 from app.schemas import ErrorResponse, FeedbackRequest, Ok
+from app.services import logs
 
 router = APIRouter(tags=["feedback"])
 
 
 @router.post("/feedback", response_model=Ok, responses={404: {"model": ErrorResponse}})
 async def feedback(req: FeedbackRequest) -> Ok:
-    """Store whether an answer was helpful.
-
-    TODO (Dev A): call logs.add_feedback(req.query_id, req.helpful); it returns False when the
-    query id is unknown -> raise NotFound("Unknown answer.").
-    """
-    raise NotImplementedYet("dev-a")
+    """Store whether an answer was helpful. 404 when the answer id is unknown."""
+    if not logs.add_feedback(req.query_id, req.helpful):
+        raise NotFound("Unknown answer.")
+    return Ok()

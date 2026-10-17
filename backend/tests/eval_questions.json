@@ -1,0 +1,12 @@
+[
+  {"question": "My son had a fever last night, can he go tomorrow?", "lang": "en", "expected_source": "house-rules.md"},
+  {"question": "ابني كانت عنده حمى الليلة الماضية، هل يمكنه الذهاب إلى الروضة غدًا؟", "lang": "ar", "expected_source": "house-rules.md"},
+  {"question": "What kind of lantern do I need?", "lang": "en", "expected_source": "letters/laternenfest.md"},
+  {"question": "ما نوع الفانوس الذي أحتاجه للاحتفال؟", "lang": "ar", "expected_source": "letters/laternenfest.md"},
+  {"question": "İzin belgesini ne zamana kadar vermem gerekiyor?", "lang": "tr", "expected_source": "letters/ausflug.md"},
+  {"question": "Чи працює садочок у цю п'ятницю?", "lang": "uk", "expected_source": "calendar.md"},
+  {"question": "¿Puede recoger a mi hija su abuela?", "lang": "es", "expected_source": "house-rules.md"},
+  {"question": "Can my son bring his own lunch?", "lang": "en", "expected_source": null},
+  {"question": "What is Eingewöhnung?", "lang": "en", "expected_source": null},
+  {"question": "Is there parking for parents at the Kita?", "lang": "en", "expected_source": null}
+]
