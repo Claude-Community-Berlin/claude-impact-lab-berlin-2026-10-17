@@ -1,6 +1,6 @@
 # Dev A: Parent flow and AI quality
 
-**Branch:** `feat/parent-ai` · **Time box:** 60 minutes, hard stop · **Done when:** `pytest tests/test_parent.py` is green (7/7) and the real-key run in A4 looks right.
+**Branch:** `feat/parent-ai` · **Time box:** 60 minutes, hard stop · **Done when:** `pytest tests/test_parent.py` is green (13/13) and the real-key run in A4 looks right.
 
 Context: `docs/TEAM_PLAN.md` (system, schedule, git rules) and `docs/ARCHITECTURE.md`. All paths are relative to `backend/`.
 
