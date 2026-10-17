@@ -6,3 +6,5 @@ __pycache__/
 .venv/
 .DS_Store
 *.log
+data/kita.db*
+.pytest_cache/
