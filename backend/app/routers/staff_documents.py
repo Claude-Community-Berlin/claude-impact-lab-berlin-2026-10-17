@@ -11,8 +11,8 @@ Rules for the implementation:
 from fastapi import APIRouter, Depends
 
 from app.auth import require_staff
-from app.errors import NotImplementedYet
 from app.schemas import DocumentContent, DocumentInfo, DocumentWrite, ErrorResponse
+from app.services import documents
 
 router = APIRouter(
     prefix="/staff", tags=["staff: documents"],
@@ -23,16 +23,16 @@ router = APIRouter(
 
 @router.get("/documents", response_model=list[DocumentInfo])
 async def list_documents() -> list[DocumentInfo]:
-    raise NotImplementedYet("dev-c")
+    return [DocumentInfo(**d) for d in documents.list_docs()]
 
 
 @router.get("/documents/{name:path}", response_model=DocumentContent,
             responses={404: {"model": ErrorResponse}})
 async def get_document(name: str) -> DocumentContent:
-    raise NotImplementedYet("dev-c")
+    return DocumentContent(**documents.read_doc(name))
 
 
 @router.put("/documents/{name:path}", response_model=DocumentContent,
             responses={422: {"model": ErrorResponse}})
 async def put_document(name: str, body: DocumentWrite) -> DocumentContent:
-    raise NotImplementedYet("dev-c")
+    return DocumentContent(**documents.write_doc(name, body.content))

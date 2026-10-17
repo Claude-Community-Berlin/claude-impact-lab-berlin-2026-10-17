@@ -11,8 +11,8 @@ Plain SQL over query_log (see app/db.py). No Claude call: group questions by exa
 from fastapi import APIRouter, Depends
 
 from app.auth import require_staff
-from app.errors import NotImplementedYet
 from app.schemas import ErrorResponse, InsightsResponse
+from app.services import insights as insights_service
 
 router = APIRouter(
     prefix="/staff", tags=["staff: insights"],
@@ -23,4 +23,4 @@ router = APIRouter(
 
 @router.get("/insights", response_model=InsightsResponse)
 async def insights() -> InsightsResponse:
-    raise NotImplementedYet("dev-c")
+    return insights_service.compute()
