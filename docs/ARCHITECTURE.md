@@ -1,6 +1,6 @@
 # Kita Companion: Backend Architecture
 
-Aligned with the screens in `frontend/src/App.tsx`. Supersedes the endpoint list in `BACKEND_PLAN.md` where they differ.
+Aligned with the screens in `frontend/src/App.tsx`. Supersedes the endpoint list in `BACKEND_PLAN.md` where they differ. Backend paths below (`app/`, `data/`, `prompts/`, `tests/`) are relative to `backend/`. Team split and schedule: `TEAM_PLAN.md`.
 
 ## 1. What the frontend actually needs
 

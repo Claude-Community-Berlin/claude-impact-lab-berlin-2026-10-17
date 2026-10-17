@@ -1,5 +1,7 @@
 # Backend Plan: Kita Companion
 
+> **Superseded.** This was the first draft. The current design is `ARCHITECTURE.md` and the work split is `TEAM_PLAN.md`. Kept for history; paths are relative to `backend/`.
+
 Based on `kita-companion-design (1).md`. Python + FastAPI REST API, documented with OpenAPI so the frontend team can build against it from minute one.
 
 ## 1. Goals
